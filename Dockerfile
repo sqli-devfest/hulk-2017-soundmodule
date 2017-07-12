@@ -14,4 +14,4 @@ ADD application /application
 ENV LD_LIBRARY_PATH=/var/lib:/lib:/opt/vc/lib/
 
 
-CMD /usr/local/bin/python3 soundmodule.py
+CMD /usr/local/bin/python3 -u soundmodule.py
