@@ -30,8 +30,8 @@ def on_message(client, userdata, msg):
 
 pygame.mixer.init()
 bad_sound = pygame.mixer.Sound("sounds/sad_trombone.ogg")
-average_sound = pygame.mixer.Sound("sounds/evil_laugh.ogg")
-great_sound = pygame.mixer.Sound("sounds/cheering3.ogg")
+average_sound = pygame.mixer.Sound("sounds/cheering3.ogg")
+great_sound = pygame.mixer.Sound("sounds/victory.ogg")
 
 
 client = mqtt.Client()
